@@ -219,11 +219,11 @@
             <objects>
                 <viewController id="mRw-oM-51w" customClass="CreatePostController" customModule="Room" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qEB-qM-2Vc">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1300"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yan-le-h2q">
-                                <rect key="frame" x="0.0" y="44" width="428.66666666666669" height="1222"/>
+                                <rect key="frame" x="0.0" y="44" width="428.66666666666669" height="818"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Hc2-dD-qmj">
                                         <rect key="frame" x="0.0" y="0.0" width="393.33333333333331" height="1300"/>
@@ -668,7 +668,6 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Bvc-dl-CI2"/>
-                    <size key="freeformSize" width="414" height="1300"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ncQ-3N-Ft6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
