@@ -23,6 +23,7 @@
 		10288AD4282FC43E00CED90E /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 10288AD3282FC43E00CED90E /* FirebaseDatabase */; };
 		10288AD6282FC43E00CED90E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 10288AD5282FC43E00CED90E /* FirebaseFirestore */; };
 		10288AD8282FC43E00CED90E /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 10288AD7282FC43E00CED90E /* FirebaseStorage */; };
+		10355DBD2839D66100612E10 /* DescriptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10355DBC2839D66100612E10 /* DescriptionController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		10288ABF282FAE0000CED90E /* RoomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomUITests.swift; sourceTree = "<group>"; };
 		10288AC1282FAE0000CED90E /* RoomUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		10288ACE282FAF5100CED90E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		10355DBC2839D66100612E10 /* DescriptionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				10288A9C282FADF900CED90E /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		10288A9C282FADF900CED90E /* Products */ = {
 			isa = PBXGroup;
@@ -131,6 +134,7 @@
 				100C3C6F2830F3EC00C41111 /* RegisterController.swift */,
 				100C3C77283101B200C41111 /* ProfileController.swift */,
 				100C3C7928310C6C00C41111 /* CreatePostController.swift */,
+				10355DBC2839D66100612E10 /* DescriptionController.swift */,
 			);
 			path = Room;
 			sourceTree = "<group>";
@@ -296,6 +300,7 @@
 				100C3C742830F98700C41111 /* AppDelegate.swift in Sources */,
 				100C3C702830F3EC00C41111 /* RegisterController.swift in Sources */,
 				10288AA3282FADF900CED90E /* ViewController.swift in Sources */,
+				10355DBD2839D66100612E10 /* DescriptionController.swift in Sources */,
 				100C3C762830F9B000C41111 /* SceneDelegate.swift in Sources */,
 				100C3C7A28310C6C00C41111 /* CreatePostController.swift in Sources */,
 			);
@@ -471,7 +476,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Room/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -498,7 +503,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Room/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
