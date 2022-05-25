@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "avatar-1.png",
+      "filename" : "bike.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "avatar.png",
+      "filename" : "bike-1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "avatar-2.png",
+      "filename" : "bike-2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
